@@ -1,6 +1,6 @@
 from datetime import date, time, datetime, timedelta
 
-def trabalahndo_com_date():
+def trabalhando_com_date():
     data_atual = date.today()
     data_atual_str = data_atual.strftime('%A %B %Y')
     print(type(data_atual))
@@ -30,6 +30,6 @@ def trabalhando_com_datetime():
 
 
 if __name__ == '__main__':
-    #trabalahndo_com_date()
+    #trabalhando_com_date()
     # trabalhando_com_time()
     trabalhando_com_datetime()
